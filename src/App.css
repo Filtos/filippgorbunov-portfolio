@@ -8,6 +8,7 @@
   padding: 20px;
   color: white;
   display: inline-block;
+  width: auto;
 }
 
 .contact-div {
@@ -47,10 +48,13 @@
 .project-description {
   font-size: 25px;
   line-height: 150%;
+  text-align: left;
+  padding-left: 20px;
 }
 
 .my-name {
   font-size: 50px;
+  width: 100%;
 }
 
 .div-header {
@@ -75,4 +79,22 @@ a:hover {
 
 .icon {
   padding-right: 25px;
+}
+
+.project-picture {
+  float: right;
+  width: 30%;
+  padding: 20px;
+}
+
+@media screen and (max-width: 550px) and (max-height: 1030px) {
+  .my-picture {
+    float: none;
+    width: 90%;
+  }
+
+  .project-picture {
+    float: none;
+    width: 90%;
+  }
 }
