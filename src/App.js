@@ -50,7 +50,7 @@ class App extends Component {
             <p className="project-description">
               <a href="https://github.com/thinkful-ei22/WeatherFM-Client-PurpleCobras" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
               <br></br>
-              <a href="https://weatherfm-client.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Version</a>
+              <a href="http://www.weather-fm.com/" target="_blank" rel="noopener noreferrer">Live Version</a>
             </p>
           </div>
           <div className="project">
