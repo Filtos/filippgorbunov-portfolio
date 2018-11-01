@@ -39,7 +39,6 @@
 
 .bio {
   font-size: 25px;
-  text-align: left;
   padding-top: 10px;
   line-height: 150%;
 }
@@ -47,7 +46,6 @@
 .project-description {
   font-size: 25px;
   line-height: 150%;
-  text-align: left;
   padding-left: 20px;
 }
 
@@ -55,6 +53,7 @@
   font-size: 50px;
   width: 100%;
 }
+
 
 .div-header {
   font-size: 35px;
@@ -100,11 +99,11 @@
 }
 
 .state-link:link, .state-link:visited {
-  color: rgb(9, 90, 9);
+  color: rgb(7, 131, 7);
 }
 
 .state-link:hover {
-  color: rgb(7, 131, 7);
+  color: rgb(9, 90, 9);
 }
 
 .react-span {

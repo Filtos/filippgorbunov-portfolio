@@ -16,7 +16,7 @@ class App extends Component {
           <img className="my-picture" src={myPicture} alt="Me smiling the beach of the Pacific Ocean"/>
           <p className="bio">
             Hey, my name is <span className="name-span">Filipp</span>. I am a full stack developer located in <span className="state-span">
-              <a href="https://www.wta.org/go-outside/map" target="_blank" rel="noopener noreferrer" className="state-link">Washington</a></span> State. I enjoy creating apps
+              <a href="https://www.wta.org/go-outside/map" target="_blank" rel="noopener noreferrer" className="state-link">WASHINGTON</a></span> State. I enjoy creating apps
             using <span className="react-span">React</span>, and I strive to constantly learn new things about coding and development. Check out my <span className="name-span">projects</span> below!
           </p>
           {/* <p className="bio">
