@@ -37,6 +37,11 @@ class App extends Component {
             <h4 className="project-name">WeatherFM</h4>
             <img className="project-picture" src={weatherFM} alt="WeatherFM front page."/>
             <p className="project-description">
+              <a href="https://github.com/thinkful-ei22/WeatherFM-Client-PurpleCobras" target="_blank" rel="noopener noreferrer" className="project-link">GitHub Repo</a>
+              <br></br>
+              <a href="https://weatherfm-client.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="project-link">Live Version</a>
+            </p>
+            <p className="project-description">
             WeatherFM takes your location and gives you music recommendations based on the mood of the weather. Users can save songs they
             like to their individual weather playlist, and if they have a Spotify account, they can export those playlists to their personal account. WeatherFM also has some
             custom search settings that lets the user fine tune the discover feature to find exactly the type of music they are looking for.
@@ -47,15 +52,15 @@ class App extends Component {
             <p className="project-description">
               Demo User - Username: demoUser , Password: password
             </p>
-            <p className="project-description">
-              <a href="https://github.com/thinkful-ei22/WeatherFM-Client-PurpleCobras" target="_blank" rel="noopener noreferrer" className="project-link">GitHub Repo</a>
-              <br></br>
-              <a href="https://weatherfm-client.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="project-link">Live Version</a>
-            </p>
           </div>
           <div className="project">
             <h4 className="project-name">Where should we eat?</h4>
             <img className="project-picture" src={whereShouldWeEat} alt="Where Should We Eat input page."/>
+            <p className="project-description">
+              <a href="https://github.com/thinkful-ei22/filipp-whereToEat-client" target="_blank" rel="noopener noreferrer" className="project-link">GitHub Repo</a>
+              <br></br>
+              <a href="https://filippwheretoeatclient.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="project-link">Live Version</a>
+            </p>
             <p className="project-description">
             I built this application to help me and my friends quickly decide where everyone wants to eat when we have a big
             group of people. This application takes the input of everyone in your group, and gives you the food place that
@@ -64,15 +69,15 @@ class App extends Component {
             <p className="project-description">
               Stack: React, Reduxt, Express, Mongoose/MongoDB, Node, Node-fetch, Enzyme
             </p>
-            <p className="project-description">
-              <a href="https://github.com/thinkful-ei22/filipp-whereToEat-client" target="_blank" rel="noopener noreferrer" className="project-link">GitHub Repo</a>
-              <br></br>
-              <a href="https://filippwheretoeatclient.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="project-link">Live Version</a>
-            </p>
           </div>
           <div className="project">
             <h4 className="project-name">iLearn</h4>
             <img className="project-picture" src={iLearn} alt="iLearn Main Page."/>
+            <p className="project-description">
+              <a href="https://github.com/thinkful-ei22/jon-fillip-spaced-repetition-client" target="_blank" rel="noopener noreferrer" className="project-link">GitHub Repo</a>
+              <br></br>
+              <a href="https://jon-filipp-spcrep-client.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="project-link">Live Version</a>
+            </p>
             <p className="project-description">
             This is a simple Spanish Language learning app. It takes advantage of the spaced repetition algorithm. As you 
             answer questions right and wrong, you will see questions spaced accordingly based on your success. This creates
@@ -83,11 +88,6 @@ class App extends Component {
             </p>
             <p className="project-description">
               Demo User - Username: test , Password: password
-            </p>
-            <p className="project-description">
-              <a href="https://github.com/thinkful-ei22/jon-fillip-spaced-repetition-client" target="_blank" rel="noopener noreferrer" className="project-link">GitHub Repo</a>
-              <br></br>
-              <a href="https://jon-filipp-spcrep-client.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="project-link">Live Version</a>
             </p>
           </div>
         </section>
