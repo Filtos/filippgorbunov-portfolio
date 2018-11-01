@@ -33,15 +33,14 @@
 }
 
 .my-picture {
-  float: left;
-  padding: 20px;
-  border-radius: 5%;
+  padding: 10px;
+  border-radius: 50%;
 }
 
 .bio {
   font-size: 25px;
   text-align: left;
-  padding-top: 15px;
+  padding-top: 10px;
   line-height: 150%;
 }
 
@@ -69,11 +68,11 @@
   color: #292f36;
 }
 
-a:link, a:visited {
+.project-link:link, .project-link:visited {
   color: #292f36;
 }
 
-a:hover {
+.project-link:hover {
   color: #00d8ff;
 }
 
@@ -85,6 +84,31 @@ a:hover {
   float: right;
   width: 30%;
   padding: 20px;
+}
+
+.name-span {
+  color: #C1514F;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Leaf;
+  src: url('Leaf.ttf');
+}
+.state-span {
+  font-family: Leaf;
+}
+
+.state-link:link, .state-link:visited {
+  color: rgb(9, 90, 9);
+}
+
+.state-link:hover {
+  color: rgb(7, 131, 7);
+}
+
+.react-span {
+  color: #00d8ff;
 }
 
 @media screen and (max-width: 550px) and (max-height: 1030px) {

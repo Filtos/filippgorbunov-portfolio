@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import myPicture from './pictures/pacific-beach.jpg';
+import myPicture from './pictures/MyFace.PNG';
 import weatherFM from './pictures/weatherfm.png';
 import whereShouldWeEat from './pictures/WhereShouldWeEat.PNG';
 import iLearn from './pictures/ilearn.png';
@@ -15,11 +15,11 @@ class App extends Component {
           <h1 className="my-name">Filipp Gorbunov</h1>
           <img className="my-picture" src={myPicture} alt="Me smiling the beach of the Pacific Ocean"/>
           <p className="bio">
-            Hey, my name is Filipp Gorbunov. I am a full stack developer located in Washington State. I enjoy creating apps
-            using React, and I strive to constantly learn new things about coding and development. I spend my free time playing
-            board games, hiking, watching films, and spending time with my close ones.
+            Hey, my name is <span className="name-span">Filipp</span>. I am a full stack developer located in <span className="state-span">
+              <a href="https://www.wta.org/go-outside/map" target="_blank" rel="noopener noreferrer" className="state-link">Washington</a></span> State. I enjoy creating apps
+            using <span className="react-span">React</span>, and I strive to constantly learn new things about coding and development. Check out my <span className="name-span">projects</span> below!
           </p>
-          <p className="bio">
+          {/* <p className="bio">
             Before getting into programming, I studied Accounting and spent time volunteering for United Way, where I helped low income individuals
             prepare their taxes. After that I worked as a Co-Lead/Software tester for Microsoft, testing the at-the-time unreleased Xbox One X. I have 
             personally performed testing on hundreds of different titles and written hundreds of bugs during that time. After that I decided I want to
@@ -28,7 +28,7 @@ class App extends Component {
           <p className="bio">
             I'm proficient in JavaScript, React/Redux, jQuery, HTML/CSS, Node.js, MongoDB, and PostgreSQL. I'm very comfortable with dev tools such as 
             Git, GitHub, Heroku, and Travis CI. I enjoy learning new things and I'm always looking for chances to improve my skills and be part of a great team.
-          </p>
+          </p> */}
         </header>
 
         <section className="project-div">
@@ -48,9 +48,9 @@ class App extends Component {
               Demo User - Username: demoUser , Password: password
             </p>
             <p className="project-description">
-              <a href="https://github.com/thinkful-ei22/WeatherFM-Client-PurpleCobras" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+              <a href="https://github.com/thinkful-ei22/WeatherFM-Client-PurpleCobras" target="_blank" rel="noopener noreferrer" className="project-link">GitHub Repo</a>
               <br></br>
-              <a href="https://weatherfm-client.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Version</a>
+              <a href="https://weatherfm-client.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="project-link">Live Version</a>
             </p>
           </div>
           <div className="project">
@@ -65,9 +65,9 @@ class App extends Component {
               Stack: React, Reduxt, Express, Mongoose/MongoDB, Node, Node-fetch, Enzyme
             </p>
             <p className="project-description">
-              <a href="https://github.com/thinkful-ei22/filipp-whereToEat-client" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+              <a href="https://github.com/thinkful-ei22/filipp-whereToEat-client" target="_blank" rel="noopener noreferrer" className="project-link">GitHub Repo</a>
               <br></br>
-              <a href="https://filippwheretoeatclient.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Version</a>
+              <a href="https://filippwheretoeatclient.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="project-link">Live Version</a>
             </p>
           </div>
           <div className="project">
@@ -85,9 +85,9 @@ class App extends Component {
               Demo User - Username: test , Password: password
             </p>
             <p className="project-description">
-              <a href="https://github.com/thinkful-ei22/jon-fillip-spaced-repetition-client" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+              <a href="https://github.com/thinkful-ei22/jon-fillip-spaced-repetition-client" target="_blank" rel="noopener noreferrer" className="project-link">GitHub Repo</a>
               <br></br>
-              <a href="https://jon-filipp-spcrep-client.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Version</a>
+              <a href="https://jon-filipp-spcrep-client.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="project-link">Live Version</a>
             </p>
           </div>
         </section>
