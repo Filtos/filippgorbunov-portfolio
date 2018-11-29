@@ -5,10 +5,12 @@
 
 .App-header {
   background-color: #292f36;
-  padding: 20px;
   color: white;
   display: inline-block;
-  width: auto;
+  width: 100%;
+  height: 80vh;
+  text-align: center;
+  padding-top: 200px;
 }
 
 .contact-div {
@@ -16,6 +18,7 @@
   padding: 20px;
 }
 .App-title {
+  margin-top: 50px;
   font-size: 1.5em;
 }
 
@@ -41,7 +44,13 @@
   font-size: 25px;
   padding-top: 10px;
   line-height: 150%;
+  list-style-type: none;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
+
 
 .project-description {
   font-size: 25px;
@@ -50,7 +59,7 @@
 }
 
 .my-name {
-  font-size: 50px;
+  font-size: 90px;
   width: 100%;
 }
 
@@ -63,12 +72,22 @@
   font-size: 25px;
 }
 
-.project-div {
+.about-me-div {
   color: #292f36;
+  height: 100vh;
+}
+
+.project-div {
+  background-color: #292f36;
+  color: white;
+}
+
+.project-div h3 {
+  padding-top: 35px;
 }
 
 .project-link:link, .project-link:visited {
-  color: #292f36;
+  color: white;
 }
 
 .project-link:hover {
@@ -84,9 +103,17 @@
   padding: 20px;
 }
 
-.name-span {
+.name-span a {
   color: #C1514F;
   font-weight: bold;
+}
+
+.name-span a:visited {
+  color: #C1514F;
+}
+
+.name-span a:hover {
+  color: rgb(121, 51, 50);
 }
 
 @font-face {
@@ -109,6 +136,38 @@
   color: #00d8ff;
 }
 
+.App-header a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  margin: 10px;
+  padding: 10px;
+  border: 3px solid white;
+}
+
+.App-header a:visited {
+  color: white;
+}
+
+.App-header a:hover {
+  color: grey;
+}
+
+.back-to-top {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.back-to-top:visited {
+  color: black;
+}
+
+.back-to-top:hover {
+  color: black;
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 550px) and (max-height: 1030px) {
   .my-picture {
     float: none;
@@ -117,6 +176,21 @@
 
   .project-picture {
     float: none;
+    width: 90%;
+  }
+
+  .App-header {
+    height: 100%;
+  }
+  .App-header a {
+    display: block;
+  }
+
+  .about-me-div {
+    height: 100%;
+  }
+
+  .bio {
     width: 90%;
   }
 }
