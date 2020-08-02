@@ -3,6 +3,9 @@ import './App.css';
 import myPicture from './pictures/MyFace.PNG';
 import weatherFM from './pictures/weatherfm.png';
 import whereShouldWeEat from './pictures/WhereShouldWeEat.PNG';
+import linkedInIco from './pictures/linkedin.png';
+import githubIco from './pictures/github.png';
+import emailIco from './pictures/email.png';
 import iLearn from './pictures/ilearn.png';
 import Typing from 'react-typing-animation';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
@@ -12,13 +15,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-
-        {/* <ul className="navbar">
-          <li><a href="#Main">Main</a></li>
-          <li><a href="#Projects">Projects</a></li>
-          <li><a href="#Contact-Info">Contact Info</a></li>
-        </ul> */}
-
         <header className="App-header" id="Main">
           {/* <h2 className="App-title">Full Stack Developer</h2> */}
           <Typing>
@@ -136,9 +132,9 @@ class App extends Component {
         <section className="contact-div" id="Contact-Info">
           <h3 className="div-header">Wanna talk? Contact Me!</h3>
           <ul className="contact-icons">
-            <li className="icon"><a href="https://www.linkedin.com/in/filippgorbunov/" target="_blank" rel="noopener noreferrer"><img src="https://png.icons8.com/ios/50/000000/linkedin.png" alt="LinkedIn Logo"/></a></li>
-            <li className="icon"><a href="https://github.com/Filtos" target="_blank" rel="noopener noreferrer"><img src="https://png.icons8.com/ios/50/000000/github.png" alt="GitHub Logo"/></a></li>
-            <li className="icon"><a href="mailto:Filippgorb@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://png.icons8.com/ios/50/000000/new-post.png" alt="eMail Logo"/></a></li>
+            <li className="icon"><a href="https://www.linkedin.com/in/filippgorbunov/" target="_blank" rel="noopener noreferrer"><img src={linkedInIco} alt="LinkedIn Logo"/></a></li>
+            <li className="icon"><a href="https://github.com/Filtos" target="_blank" rel="noopener noreferrer"><img src={githubIco} alt="GitHub Logo"/></a></li>
+            <li className="icon"><a href="mailto:Filippgorb@gmail.com" target="_blank" rel="noopener noreferrer"><img src={emailIco} alt="eMail Logo"/></a></li>
           </ul>
           <AnchorLink href="#Main" className="back-to-top">Back To Top</AnchorLink>
         </section>
